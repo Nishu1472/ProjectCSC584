@@ -44,6 +44,10 @@ body{
 	margin:10px;
 }
 
+.center{
+	align-items:center;
+}
+
 
 /*Products use*/
 
@@ -230,8 +234,6 @@ button:hover, .submit:hover{
 }
 
 /*end of product*/
-
-
 
 
 

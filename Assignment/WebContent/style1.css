@@ -102,7 +102,7 @@ span{
 	left: 450px;
 }
 
-body{
+body1{
 	margin: 0;
 	padding: 0;
 	display: flex;
@@ -112,13 +112,13 @@ body{
 	font-family: 'Poppins', sans-serif;
 }
 
-.container{
+.container1{
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
 }
 
-.container .box{
+.container1 .box{
 	position: relative;
 	width: 350px;
 	padding: 40px;
@@ -131,7 +131,7 @@ body{
 	text-align: center;
 } 
 
-.container .box .icon{
+.container1 .box .icon{
 	 position: relative;
 	 width: 80px;
 	 height: 80px;
@@ -147,47 +147,47 @@ body{
 	 transition: 1s;
 }
 
-.container .box:nth-child(1) .icon
+.container1 .box:nth-child(1) .icon
 {
 	box-shadow: 0 0 0 0 #e91e63;
 	background: #e91e63;
 }
 
-.container .box:nth-child(1):hover .icon
+.container1 .box:nth-child(1):hover .icon
 {
 	box-shadow: 0 0 0 400px #e91e63;
 }
 
-.container .box:nth-child(2) .icon
+.container1 .box:nth-child(2) .icon
 {
 	box-shadow: 0 0 0 0 #23e629;
 	background: #23e629;
 }
 
-.container .box:nth-child(2):hover .icon
+.container1 .box:nth-child(2):hover .icon
 {
 	box-shadow: 0 0 0 400px #23e629;
 }
 
-.container .box:nth-child(3) .icon
+.container1 .box:nth-child(3) .icon
 {
 	box-shadow: 0 0 0 0 #2196f3;
 	background: #2196f3;
 }
 
-.container .box:nth-child(3):hover .icon
+.container1 .box:nth-child(3):hover .icon
 {
 	box-shadow: 0 0 0 400px #2196f3;
 }
 
-.container .box .content
+.container1 .box .content
 {
 	position: relative;
 	z-index: 1;
 	transition: 0.5s;
 }
 
-.container .box:hover .content
+.container1 .box:hover .content
 {
 	color: #fff;
 }

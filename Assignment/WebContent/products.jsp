@@ -23,16 +23,16 @@
 		
 		<ul>
 			<li><a href="home.html">Home</a></li>
-			<li><a href="about us.html">About Us</a></li>
+			<li><a href="aboutus.html">About Us</a></li>
 			<li><a href="products.jsp">Products</a></li>
-			<li><a href="#">Contact</a></li>
+			<li><a href="contact.html">Contact</a></li>
 			<li><a href="#">Log out</a></li>
 		</ul>
 	</nav>
 	
 <div class="banner">
 <br>
-<div class="content">
+<div class="content1">
 <p class = "h1">Products available at Capt Exclusive</p>
 <br><br><br>
 <p class = "h2">Kurta LOKA (fast selling!)</p>

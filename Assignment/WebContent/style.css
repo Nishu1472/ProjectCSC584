@@ -13,23 +13,25 @@ body{
 	font-family:montserrat;
 	display:grid;
 	min-height: 100vh;
-	place-item:center;
+	place-item: center;
 }
 
 .center{
 	text-align:center;
 }
 
-.content{
+.content1{
 	text-align:center;
 	color:white;
 	margin:100px;
 }
+
 .h1{
 	font-size:80px;
 	font-weight:bold;
 	margin-bottom:25px;
 	color:white;
+	text-align:center;
 }
 
 .h2{
@@ -201,7 +203,7 @@ body{
 	background-color: #f67034;
 	color: #f7f6f9;
 	font-size: 18px;
-	text-transfrom:capitalize;
+	text-transform:capitalize;
 	cursor:pointer;
 	transition:.5s;
 	margin: 10px;
@@ -214,7 +216,7 @@ body{
 	background-color: #f7f6f9;
 	color: #000000;
 	font-size: 18px;
-	text-transfrom:capitalize;
+	text-transform:capitalize;
 	cursor:pointer;
 	transition:.5s;
 	margin:10px;
@@ -362,3 +364,88 @@ a.active, a:hover{
 }
 
 /*end of navigation and background*/
+
+/*contact*/
+
+.container1{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-left: auto;
+    margin-right: auto;
+}
+
+.container1 .box{
+	position: relative;
+	height: 350px;
+	width: 450px;
+	padding: 40px;
+	background: 0004d;
+	box-shadow: 0 5px 15px rgba(0,0,0,.1);
+	border-radius: 4px;
+	margin: 50px;
+	box-sizing: border-box;
+	overflow: hidden;
+	text-align: center;
+} 
+
+.container1 .box .icon{
+	 position: relative;
+	 width: 80px;
+	 height: 80px;
+	 color: 0004d;
+	 background: 0004d;
+	 display: flex;
+	 justify-content: center;
+	 align-items: center;
+	 margin: 0 auto;
+	 border-radius: 50%;
+	 font-size: 60px;
+	 font-weight: 700;
+	 transition: 1s;
+}
+
+.container1 .box:nth-child(1) .icon
+{
+	box-shadow: 0 0 0 0 #926f35;
+	background: #926f35;
+}
+
+.container1 .box:nth-child(1):hover .icon
+{
+	box-shadow: 0 0 0 400px #926f35;
+}
+
+.container1 .box:nth-child(2) .icon
+{
+	box-shadow: 0 0 0 0 #926f35;
+	background: #926f35;
+}
+
+.container1 .box:nth-child(2):hover .icon
+{
+	box-shadow: 0 0 0 400px #926f35;
+}
+
+.container1 .box:nth-child(3) .icon
+{
+	box-shadow: 0 0 0 0 #926f35;
+	background: #926f35;
+}
+
+.container1 .box:nth-child(3):hover .icon
+{
+	box-shadow: 0 0 0 400px #926f35;
+}
+
+.container1 .box .content
+{
+	position: relative;
+	z-index: 1;
+	transition: 0.5s;
+}
+
+.container1 .box:hover .content
+{
+	color: #fff;
+}

@@ -39,7 +39,7 @@
 <div class="banner">
 
 
-<div class="content">
+<div class="content1">
 <p class="h1">Add to Cart</p>
 <p class="h2">Select the quantity of the products. Maximum 5 pieces per person</p>
 <hr width="100%" color="white"><br>
